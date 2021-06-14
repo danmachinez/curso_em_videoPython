@@ -1,0 +1,12 @@
+print('-' * 36)
+print('CONVERTA A TEMPERATURA DE °C PARA °F')
+print('-' * 36)
+print('')
+c = float(input('Digite a temperatura em °C: '))
+f = (9 * c)/5 + 32
+print('')
+print('A temperatura de {}°C corresponde a {}°F !' .format(c, f))
+print('')
+print('-' * 40)
+print('Muito obrigado por usar nosso conversor!')
+print('-' * 40)
