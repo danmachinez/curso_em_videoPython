@@ -1,0 +1,25 @@
+print('-' * 50)
+print('     BEM VINDO A CASA DE CAMBIO DO DAN DAN')
+print('-' * 50)
+print()
+print('DADOS DO CLIENTE')
+print()
+nome = input('Digite seu nome: ')
+idade = input('Digite sua idade: ')
+cpf = input('Digite seu CPF: ')
+print()
+print('-' * 55)
+real = float(input('Qual valor desejaria trocar? R$ '))
+dolar = real / 5.15
+euro = real / 5.82
+libra = real / 6.45
+iene = real / 0.048
+print('Aqui está alguns exemplos de moedas para sua troca:')
+print()
+print('Com R$ {:.2f} você consegue trocar por US$ {:.2f}'.format(real, dolar))
+print('Com R$ {:.2f} você consegue trocar por €   {:.2f}'.format(real, euro))
+print('Com R$ {:.2f} você consegue trocar por £   {:.2f}'.format(real, libra))
+print('Com R$ {:.2f} você consegue trocar por ¥   {:.2f}'.format(real, iene))
+print()
+print('{}, a Casa de Cambio do Dan Dan agradece pela preferência, volte sempre!'.format(nome))
+print('-' * 75)
